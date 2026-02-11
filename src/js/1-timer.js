@@ -36,6 +36,7 @@ flatpickr(refs.input, {
         message: 'Please choose a date in the future',
         position: 'topRight',
       });
+
       return;
     }
 
@@ -64,6 +65,7 @@ function onStart() {
       setTimerZeros();
       refs.input.disabled = false;
       refs.startBtn.disabled = true;
+
       return;
     }
 
